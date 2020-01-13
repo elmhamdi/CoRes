@@ -25,7 +25,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "assets/js/vendor/modernizr.custom.js",
+              "assets/js/script.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -72,7 +76,11 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "styles.css"
+              "styles.css",
+              "assets/vendor/bootstrap.css",
+              "assets/vendor/animate.css",
+              "assets/vendor/owl.carousel.css",
+              "assets/colors/red.css"
             ],
             "scripts": [],
             "assets": [
